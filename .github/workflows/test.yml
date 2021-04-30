@@ -1,6 +1,8 @@
 name: blank
 on:
   push:
+    paths:
+      - 'path1/path2/**'
 jobs:
   blank:
     runs-on: ubuntu-latest
