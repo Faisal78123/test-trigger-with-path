@@ -1,6 +1,7 @@
 name: blank
 on:
   push:
+    branches: [ main ]
     paths:
       - 'path1/path2/**'
 jobs:
